@@ -4,7 +4,7 @@
     "slug": "truco-marcador",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/truco-icon.png",
     "userInterfaceStyle": "light",
     "backgroundColor": "#D1D5DB",
     "ios": {
@@ -12,17 +12,17 @@
       "bundleIdentifier": "com.felipe-serra.trucomarcador"
     },
     "android": {
+      "icon": "./assets/truco-icon.png",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#F3EBDD",
+        "foregroundImage": "./assets/truco-icon-foreground.png",
+        "monochromeImage": "./assets/truco-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.felipe_serra.trucomarcador"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/truco-favicon.png"
     }
   }
 }
