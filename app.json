@@ -1,13 +1,15 @@
 {
   "expo": {
-    "name": "truco-marcador",
+    "name": "Marcador de Truco",
     "slug": "truco-marcador",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#D1D5DB",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.felipe-serra.trucomarcador"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,7 +18,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.felipe_serra.trucomarcador"
     },
     "web": {
       "favicon": "./assets/favicon.png"
